@@ -1,6 +1,7 @@
 using Osigu.MedicalOrders.Domain.Entities;
 using Osigu.MedicalOrders.Domain.Enums;
 using Osigu.MedicalOrders.Domain.Exceptions;
+using Xunit;
 
 namespace Osigu.MedicalOrders.UnitTests.Domain;
 

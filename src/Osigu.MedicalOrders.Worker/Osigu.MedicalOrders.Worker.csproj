@@ -6,6 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="6.1.1" />
     <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
     <ProjectReference Include="..\Osigu.MedicalOrders.Application\Osigu.MedicalOrders.Application.csproj" />
     <ProjectReference Include="..\Osigu.MedicalOrders.Infrastructure\Osigu.MedicalOrders.Infrastructure.csproj" />
