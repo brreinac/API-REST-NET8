@@ -1,0 +1,25 @@
+## .NET
+bin/
+obj/
+.vs/
+TestResults/
+*.user
+*.suo
+
+## Rider
+.idea/
+
+## Application data
+data/*.db
+data/*.db-shm
+data/*.db-wal
+logs/*.log
+!logs/evidence.log
+!logs/.gitkeep
+
+## Local configuration
+appsettings.Local.json
+
+## OS
+.DS_Store
+Thumbs.db

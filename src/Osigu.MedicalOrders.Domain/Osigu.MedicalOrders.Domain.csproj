@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Osigu.MedicalOrders.Domain</AssemblyName>
+    <RootNamespace>Osigu.MedicalOrders.Domain</RootNamespace>
+  </PropertyGroup>
+</Project>
