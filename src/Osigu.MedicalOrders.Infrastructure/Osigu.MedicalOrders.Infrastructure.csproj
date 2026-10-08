@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Osigu.MedicalOrders.Infrastructure</AssemblyName>
+    <RootNamespace>Osigu.MedicalOrders.Infrastructure</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.20" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+    <ProjectReference Include="..\Osigu.MedicalOrders.Application\Osigu.MedicalOrders.Application.csproj" />
+  </ItemGroup>
+</Project>
