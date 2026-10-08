@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <AssemblyName>Osigu.MedicalOrders.Api</AssemblyName>
+    <RootNamespace>Osigu.MedicalOrders.Api</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <ProjectReference Include="..\Osigu.MedicalOrders.Application\Osigu.MedicalOrders.Application.csproj" />
+    <ProjectReference Include="..\Osigu.MedicalOrders.Infrastructure\Osigu.MedicalOrders.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
