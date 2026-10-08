@@ -1,0 +1,4 @@
+2026-10-07 10:15:01.000 +00:00 [INF] Medical order 8d5f9a9e-6c4e-4b0e-a6d8-2e0c1e0b7c01 created for patient 12345.
+2026-10-07 10:15:06.000 +00:00 [INF] Processing order 8d5f9a9e-6c4e-4b0e-a6d8-2e0c1e0b7c01 with priority Normal.
+2026-10-07 10:15:06.250 +00:00 [INF] Order 8d5f9a9e-6c4e-4b0e-a6d8-2e0c1e0b7c01 changed to Procesada.
+2026-10-07 10:15:06.251 +00:00 [INF] Worker processed 1 pending order(s).
