@@ -545,19 +545,3 @@ La solución mantiene el alcance apropiado para una prueba técnica. No introduc
 9. Verificar que la orden aparece como `Procesada`.
 10. Ejecutar `GET /api/orders/{id}`.
 11. Revisar `logs/application-YYYYMMDD.log`.
-
----
-
-## 19. Nota sobre Git
-
-La guía de entrega solicita un repositorio Git público con historial de commits descriptivos.
-
-Este paquete incluye un repositorio Git local con commits progresivos. Para la entrega final:
-
-```powershell
-git remote add origin <URL_DEL_REPOSITORIO>
-git branch -M main
-git push -u origin main
-```
-
-El repositorio remoto debe configurarse como público según las instrucciones de entrega.
